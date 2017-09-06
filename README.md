@@ -15,4 +15,5 @@ Clone or download from Github
 
 Once installed, cd into the movies folder from the command prompt.
 Then from the command prompt enter
+
 `entertainment_center.py`

@@ -17,16 +17,22 @@ toy_story = media.Movie("Toy Story",
                         "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
                         "https://www.youtube.com/watch?v=vwyZH85NQC4")
 
-#print(toy_story.storyline)
+
 
 avatar = media.Movie("Avatar",
                      "A marine on an alien planet",
                      "http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Poster.jpg",
                      "https://www.youtube.com/watch?v=d1_JBMrrYw8")
-#avatar.show_trailer(
 
+
+# List of movie objects to be called by
+# the fresh_tomatoes.open_movies_page function
 movies = [curious_george_2, tombstone, toy_story, avatar]
-#print(media.Movie.tombstone)
+
+
+# The open_movies_pages function passes in a list
+# of movie instances as an argument and opens a web page
+# displaying the movies list 
 fresh_tomatoes.open_movies_page(movies)
-#print(media.Movie.__doc__)
+
 

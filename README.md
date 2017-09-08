@@ -1,6 +1,6 @@
 # Project: Movie Trailer Website
 
-This project is a part of the is the movie website project for the Udacity fullstack web developer
+This project is a part of the movie website project for the Udacity fullstack web developer
 course.
 
 ## Software Requirements
